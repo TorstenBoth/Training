@@ -38,9 +38,12 @@
 </head>
 <body>
     <?php
-    echo '<p>6 aus 49: ' . ziehung('6aus49') . '</p><br />';
-    echo '<p>Spiel 77: ' . ziehung('Spiel77') . '</p><br />';
-    echo '<p>Super  6: ' . ziehung('Super6') . '</p><br />';
+    echo '<p>6 aus 49: </p>';
+    ziehung('6aus49');
+    echo '<p>Spiel 77: </p>';
+    ziehung('Spiel77');
+    echo '<p>Super  6: </p>';
+    ziehung('Super6');
     ?>
 </body>
 </html>
